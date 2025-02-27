@@ -1,0 +1,66 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>MakuTweaker</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWPF>True</UseWPF>
+    <TargetFramework>netcoreapp8.0</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>12.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="makutweaker-20new.png" />
+    <None Remove="makut.png" />
+    <None Remove="hand_heart_donate_icon.png" />
+    <None Remove="makutweakernewnoround.png" />
+    <None Remove="you-tube-16.png" />
+    <None Remove="telegram_2019_logo.svg.png" />
+    <None Remove="MakuTweakerNew.MakuT.ico" />
+    <None Remove="MakuTweakerNew.BuildLab.txt" />
+    <None Remove="MakuTweakerNew.BuildNumber.txt" />
+    <None Remove="MakuTweakerNew.HWID.cmd" />
+    <EmbeddedResource Include="makutweaker-20new.png" LogicalName="makutweaker%20new.png" />
+    <EmbeddedResource Include="makut.png" LogicalName="makut.png" />
+    <EmbeddedResource Include="hand_heart_donate_icon.png" LogicalName="hand_heart_donate_icon.png" />
+    <EmbeddedResource Include="makutweakernewnoround.png" LogicalName="makutweakernewnoround.png" />
+    <EmbeddedResource Include="you-tube-16.png" LogicalName="you-tube-16.png" />
+    <EmbeddedResource Include="telegram_2019_logo.svg.png" LogicalName="telegram_2019_logo.svg.png" />
+    <EmbeddedResource Include="MakuTweakerNew.MakuT.ico" LogicalName="MakuTweakerNew.MakuT.ico" />
+    <EmbeddedResource Include="MakuTweakerNew.BuildLab.txt" LogicalName="MakuTweakerNew.BuildLab.txt" />
+    <EmbeddedResource Include="MakuTweakerNew.BuildNumber.txt" LogicalName="MakuTweakerNew.BuildNumber.txt" />
+    <EmbeddedResource Include="MakuTweakerNew.HWID.cmd" LogicalName="MakuTweakerNew.HWID.cmd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="WinRT.Runtime">
+      <HintPath>C:\Users\honakac\Downloads\MakuTweaker\WinRT.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="MicaWPF">
+      <HintPath>C:\Users\honakac\Downloads\MakuTweaker\MicaWPF.dll</HintPath>
+    </Reference>
+    <Reference Include="ModernWpf">
+      <HintPath>C:\Users\honakac\Downloads\MakuTweaker\ModernWpf.dll</HintPath>
+    </Reference>
+    <Reference Include="ModernWpf.Controls">
+      <HintPath>C:\Users\honakac\Downloads\MakuTweaker\ModernWpf.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="MicaWPF.Core">
+      <HintPath>C:\Users\honakac\Downloads\MakuTweaker\MicaWPF.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Hardcodet.NotifyIcon.Wpf">
+      <HintPath>C:\Users\honakac\Downloads\MakuTweaker\Hardcodet.NotifyIcon.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>C:\Users\honakac\Downloads\MakuTweaker\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="ModernWpf.MessageBox">
+      <HintPath>C:\Users\honakac\Downloads\MakuTweaker\ModernWpf.MessageBox.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

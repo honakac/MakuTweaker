@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Page x:Class="MakuTweakerNew.Act" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:local="clr-namespace:MakuTweakerNew" xmlns:controls="clr-namespace:MicaWPF.Controls;assembly=MicaWPF" xmlns:ui="http://schemas.modernwpf.com/2019" Title="Desktop">
+  <Grid>
+    <TextBlock Name="label" HorizontalAlignment="Left" Margin="24,11,0,0" TextWrapping="Wrap" Text="Windows Activation" VerticalAlignment="Top" FontSize="32" FontFamily="Segoe UI Semibold" />
+    <TextBlock Name="mact1" HorizontalAlignment="Left" Margin="24,224,0,0" TextWrapping="Wrap" Text="Step 1: Select KMS Server (Try Another If Activation Fails)s" VerticalAlignment="Top" FontSize="24" FontFamily="Segoe UI Semilight" Width="585" />
+    <ComboBox Name="mact2" Margin="24,293,0,0" FontSize="14" VerticalAlignment="Top" MinWidth="177" MaxWidth="177" HorizontalAlignment="Left" Width="177" Height="30">
+      <ComboBoxItem Content=" kms.digiboy.ir" IsSelected="True" />
+      <ComboBoxItem Content=" kms.ddns.net" />
+      <ComboBoxItem Content=" k.zpale.com" />
+      <ComboBoxItem Content=" kms789.com" />
+      <ComboBoxItem Content=" kms.03k.org:1688" />
+      <ComboBoxItem Content=" hq1.chinancce.com" />
+      <ComboBoxItem Content=" 54.223.212.31" />
+      <ComboBoxItem Content=" kms.cnlic.com" />
+      <ComboBoxItem Content=" kms.chinancce" />
+      <ComboBoxItem Content=" franklv.ddns.net" />
+      <ComboBoxItem Content=" mvg.zpale.com" />
+      <ComboBoxItem Content=" kms.shuax.com" />
+    </ComboBox>
+    <controls:Button Name="mact3" Margin="210,293,0,0" Content="Apply" Height="30" VerticalAlignment="Top" HorizontalAlignment="Left" Width="106" Click="mact3_Click" />
+    <TextBlock Name="mact4" HorizontalAlignment="Left" Margin="24,340,0,0" TextWrapping="Wrap" Text="Step 2: Select Windows Edition" VerticalAlignment="Top" FontSize="24" FontFamily="Segoe UI Semilight" Width="689" />
+    <ComboBox Name="wined" Margin="24,377,0,0" FontSize="14" VerticalAlignment="Top" MinWidth="177" MaxWidth="177" HorizontalAlignment="Left" Width="178" Height="30">
+      <ComboBoxItem Content=" Pro" />
+      <ComboBoxItem Content=" Home" />
+      <ComboBoxItem Content=" Education" />
+      <ComboBoxItem Content=" Enterprise" />
+      <ComboBoxItem Content=" Enterprise LTSC" />
+    </ComboBox>
+    <controls:Button Name="mact5" Margin="210,377,0,0" Content="Apply" Height="30" VerticalAlignment="Top" HorizontalAlignment="Left" Width="106" Click="mact5_Click" />
+    <TextBlock Name="mact6" HorizontalAlignment="Left" Margin="25,429,0,0" TextWrapping="Wrap" Text="Step 3: Apply Activation" VerticalAlignment="Top" FontSize="24" FontFamily="Segoe UI Semilight" Width="644" />
+    <controls:Button Name="mact7" Margin="25,466,0,0" Content="Apply" Height="30" VerticalAlignment="Top" HorizontalAlignment="Left" Width="106" Click="mact7_Click" />
+    <TextBlock Name="hwid" HorizontalAlignment="Left" Margin="25,79,0,0" TextWrapping="Wrap" Text="Automatic Activation (HWID)" VerticalAlignment="Top" FontSize="24" FontFamily="Segoe UI Semibold" Width="585" />
+    <controls:Button Name="autoact" Margin="25,119,0,0" Content="Apply" Height="30" VerticalAlignment="Top" HorizontalAlignment="Left" Width="106" Click="Button_Click" />
+    <TextBlock Name="mact9" HorizontalAlignment="Left" Margin="25,187,0,0" TextWrapping="Wrap" Text="Manual Activation (KMS)" VerticalAlignment="Top" FontSize="24" FontFamily="Segoe UI Semibold" Width="585" />
+    <ui:ProgressBar Name="p" Visibility="Visible" Margin="0,529,0,0" VerticalAlignment="Top" Width="665" HorizontalAlignment="Center" Height="12" Maximum="20" Opacity="0" IsIndeterminate="True" />
+    <TextBlock Name="t" HorizontalAlignment="Left" Margin="40,510,0,0" TextWrapping="Wrap" Text="Activating Windows... This may take a while on weak PCs." VerticalAlignment="Top" FontSize="12" FontFamily="Segoe UI" Opacity="0" />
+  </Grid>
+</Page>

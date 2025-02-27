@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application x:Class="MakuTweakerNew.App" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:local="clr-namespace:MakuTweakerNew" xmlns:ui="http://schemas.modernwpf.com/2019" xmlns:mica="clr-namespace:MicaWPF.Styles;assembly=MicaWPF">
+  <Application.Resources>
+    <ResourceDictionary>
+      <ResourceDictionary.MergedDictionaries>
+        <ui:ThemeResources />
+        <ui:XamlControlsResources />
+        <mica:ThemeDictionary xmlns:styles="clr-namespace:MicaWPF.Core.Styles;assembly=MicaWPF.Core" DesignModeTheme="Dark" Theme="Auto" />
+        <mica:ControlsDictionary />
+      </ResourceDictionary.MergedDictionaries>
+    </ResourceDictionary>
+  </Application.Resources>
+</Application>
